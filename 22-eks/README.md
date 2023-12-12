@@ -1,5 +1,7 @@
 # 22 - EKS
 
+https://github.com/iam-veeramalla/aws-devops-zero-to-hero/tree/main/day-22
+
 ```sh
 # Create an EKS cluster using Fargate worker nodes instead of EC2 instances
 eksctl create cluster \
@@ -57,6 +59,20 @@ eksctl create iamserviceaccount \
 # Create ALB controller using Helm and update the chart repo
 helm repo add eks https://aws.github.io/eks-charts
 helm repo update eks
+
+helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
+  -n kube-system \
+  --set clusterName=demo-cluster \
+  --set serviceAccount.create=false \
+  --set serviceAccount.name=aws-load-balancer-controller \
+  --set region=us-east-1 \
+  --set vpcId=vpc-008a900dc280f8aab
+
+# Verify
+kubectl get deployment -n kube-system aws-load-balancer-controller
+
+# It should have an A record now
+kubectl get ingress -n game-2048
 
 # Cleanup
 eksctl delete cluster \
