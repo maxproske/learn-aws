@@ -11,3 +11,6 @@ IAM
 - **Permissions** are what users can do in the AWS console.
 - IAM is a **global** service, not a **regional** service.
 - IAM is the only AWS service that is **global** and **free**.
+- **Roles** are created for **services** to access other services.
+- By default, users have 1 policy attached to them: **IAMUserChangePassword**.
+- AWS has **Managed Policies**, but you can also create custom policies.
