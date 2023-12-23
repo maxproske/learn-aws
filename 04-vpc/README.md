@@ -12,4 +12,5 @@ Watch: https://www.youtube.com/watch?v=P8g7Z4NYk3Q&list=PLdpzxOOAlwvLNOxX0RfndiY
 - Internet -> AWS **internet gateway** -> VPC **public subnet** -> Elastic **load balancer** -> **route table** -> **security group** -> EC2 **instance**.
 - An **NACL** (Network Access Control List) is a firewall that controls traffic from and to a subnet.
 - A **NAT gateway** (Network Address Translation) is a way to translate private IP addresses to public IP addresses.
-- 💡 It will also mask the IP address of your EC2 instance, so if you need to download a package, the internet only sees the public IP address of the NAT gateway. Cool!
+- 💡 It will also mask the IP address of your EC2 instance, so if you need to download a package, the internet only sees the public IP address of the NAT **gateway**. Cool!
+- **VPC Flow Logs** is a (chargable) feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.

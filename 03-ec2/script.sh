@@ -1,5 +1,8 @@
 # https://www.jenkins.io/doc/book/installing/linux/
 
+## SSH into EC2 instance
+ssh -i <path-to-pem-file> ubuntu@<ec2-instance-ip>
+
 # Install Java
 sudo apt-get update
 sudo apt-get install openjdk-17-jdk -y
