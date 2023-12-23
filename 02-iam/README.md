@@ -4,6 +4,7 @@ Imagine AWS is a bank...
 - **Authentication** means you can enter the bank
 - **Authorization** means you can go into the vault and take money out
 - With **root access**, you can do anything the bank
+- AWS generally offers more advanced features that are suitable for enterprise needs like IAM.
 
 IAM
 - **IAM** (Identity Access Managemet) is an **AWS service** that manages **users** and **permissions**.
