@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'My first CloudFormation template'
+
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket' # A comment!
+    Properties:
+      BucketName: mproske-11-cloudformation-bucket
+      VersioningConfiguration:
+        Status: Enabled
+
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-0d5eff06f840b45e9
+      InstanceType: t2.micro
+      KeyName: aws_key
+      SecurityGroupIds:
+        - sg-0a9e8c7b8c7b8c7b8
+      SubnetId: subnet-0a9e8c7b8c7b8c7b8
+      Tags:
+        - Key: Name
+          Value: mproske-11-cloudformation-instance

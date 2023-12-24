@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "redhat.vscode-yaml", // YAML extension by Red Hat
+        "amazonwebservices.aws-toolkit-vscode" // AWS Toolkit for Visual Studio Code
+    ]
+}

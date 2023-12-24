@@ -1,8 +1,11 @@
 # learn-aws-devops
 
-Following a YouTube series on theoretical and practical AWS DevOps by Abhishek.
+Following a YouTube series on AWS DevOps by Abhishek with theoretical and practical examles.
 
 ## Cool Things
-- Auto-scale instances across multiple availability zones
+
+- Auto-scale servers across multiple availability zones & without Kubernetes
 
 ## Not Cool Things
+
+- Vendor lock-in
