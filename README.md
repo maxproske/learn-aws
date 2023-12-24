@@ -9,3 +9,4 @@ Following a YouTube series on AWS DevOps by Abhishek with theoretical and practi
 ## Not Cool Things
 
 - Vendor lock-in
+- Resources can be hidden if you're in a different region
