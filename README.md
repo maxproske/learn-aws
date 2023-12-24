@@ -1,10 +1,11 @@
 # learn-aws-devops
 
-Following a YouTube series on AWS DevOps by Abhishek with theoretical and practical examles.
+Following a YouTube series by Abhishek to evaluate AWS DevOps with theoretical and practical examles.
 
 ## Cool Things
 
-- Auto-scale servers across multiple availability zones & without Kubernetes
+- Auto-scale servers across multiple availability zones and without Kubernetes
+- Good to know how companies that exclusively use AWS function
 
 ## Not Cool Things
 
