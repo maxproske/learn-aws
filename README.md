@@ -1,6 +1,6 @@
 # learn-aws-devops
 
-Following a YouTube series by Abhishek to evaluate AWS DevOps with theoretical and practical examles.
+Following a [YouTube series by Abhishek](https://www.youtube.com/watch?v=-8_r28jJ6AM&list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze) to evaluate AWS DevOps with theoretical and practical examles.
 
 ## Cool Things
 
@@ -9,7 +9,8 @@ Following a YouTube series by Abhishek to evaluate AWS DevOps with theoretical a
 
 ## Not Cool Things
 
-- It's a Rube Goldberg machine of services
+- It's a Rube Goldberg machine of managed services
+- Each service has its own UI, docs, and learning curve
 - Feels like a headless CMS with structured content and permissions for DevOps
 - The best series is only 5 months old and already outdated
 - Vendor lock-in
