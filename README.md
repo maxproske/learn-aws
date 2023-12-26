@@ -9,6 +9,7 @@ Following a YouTube series by Abhishek to evaluate AWS DevOps with theoretical a
 
 ## Not Cool Things
 
+- It's a Rube Goldberg machine of services
 - Feels like a headless CMS with structured content and permissions for DevOps
 - The best series is only 5 months old and already outdated
 - Vendor lock-in
