@@ -12,7 +12,6 @@ Watch: https://www.youtube.com/watch?v=-8_r28jJ6AM&list=PLdpzxOOAlwvLNOxX0RfndiY
 - By default, ECR images are **private**. As opposed to Docker Hub, where images are public by default.
 - Allows you to **scan** your images for vulnerabilities.
 
-
 ```sh
 # Login
 aws configure

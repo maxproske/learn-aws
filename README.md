@@ -6,6 +6,7 @@ Following a [YouTube series by Abhishek](https://www.youtube.com/watch?v=-8_r28j
 
 - Auto-scale servers across multiple availability zones and without Kubernetes
 - Good to know how companies that exclusively use AWS function
+- Their managed Kubernetes (EKS) allows you to use serverless (Fargate) for burst workloads.
 
 ## Not Cool Things
 
