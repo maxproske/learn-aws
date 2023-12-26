@@ -1,5 +1,10 @@
 # 22 - EKS
 
+Watch: https://www.youtube.com/watch?v=RRCrY12VY_s&list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze&index=24
+
+- **EKS** (Elastic Kubernetes Service) is a managed Kubernetes service that allows you to run Kubernetes on AWS without managing the control plane.
+- **Kubernetes** is an open-source container orchestration system that allows you to run containers at scale.
+
 https://github.com/iam-veeramalla/aws-devops-zero-to-hero/tree/main/day-22
 
 ```sh
