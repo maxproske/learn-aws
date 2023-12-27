@@ -4,7 +4,7 @@ Following a [YouTube series by Abhishek](https://www.youtube.com/watch?v=-8_r28j
 
 ## Cool Things
 
-- Auto-scale servers across multiple availability zones and without Kubernetes
+- You can use Auto Scaling Groups to automatically scale servers across multiple availability zones, and without Kubernetes
 - Good to know how companies that exclusively use AWS function
 - Their managed Kubernetes (EKS) allows you to use serverless (Fargate) for burst workloads.
 
@@ -16,3 +16,5 @@ Following a [YouTube series by Abhishek](https://www.youtube.com/watch?v=-8_r28j
 - The best series is only 5 months old and already outdated
 - Vendor lock-in
 - Resources can be hidden if you're in a different region
+- $0.40 per secret/month to store secrets
+- You can't use the free tier for everything
