@@ -45,3 +45,5 @@ terraform apply
 - `main.tf` is a file that contains the resources that will be created. (eg. `aws_vpc`)
 - `variables.tf` is a file that contains variables that can be referenced in other files. (eg. `var.cidr`)
 - **Blocks** are used to group resources together. (eg. `resource "aws_vpc" "main"`)
+- 169.254.169.254 is the **Metadata Service** that is available to all EC2 instances. It can be used to get information about the instance, such as the instance ID.
+- Never version control your .tfstate file. It contains secrets, and you're likely to forget to run `terraform apply` after making changes, so your teammates will have out-of-date state files.
