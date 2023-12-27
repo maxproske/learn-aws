@@ -11,3 +11,4 @@ Watch: https://www.youtube.com/watch?v=cAXPA5lqkV4&list=PLdpzxOOAlwvLNOxX0RfndiY
 - Terraform can be used to migrate your infrastructure to the cloud.
 - CloudWatch can be used to monitor your infrastructure.
 - **Retain** and **Retire** are two options for dealing with on-premises infrastructure that is no longer needed.
+- **AWS MGN** (Migration Hub) is a service that can be used to replicate/migrate your application to AWS.
