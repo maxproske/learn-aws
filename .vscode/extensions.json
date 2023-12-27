@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "redhat.vscode-yaml", // YAML extension by Red Hat
-        "amazonwebservices.aws-toolkit-vscode" // AWS Toolkit for Visual Studio Code
+        "amazonwebservices.aws-toolkit-vscode", // AWS Toolkit for Visual Studio Code
+        "HashiCorp.terraform" // Terraform extension by HashiCorp
     ]
 }
