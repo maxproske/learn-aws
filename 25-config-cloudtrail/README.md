@@ -8,4 +8,3 @@ Watch: https://www.youtube.com/watch?v=ig1KxKgN8ls&list=PLdpzxOOAlwvLNOxX0RfndiY
 - It can be used to check for compliance with the **AWS Well-Architected Framework**.
 - When an EC2 instance is reconfigured, it will call **AWS Lambda** functions with the metadata of the EC2 instance to check for compliance.
 - **AWS CloudTrail** is a service that allows you to audit your AWS resources for organization compliance **when API calls are made**.
-- 
